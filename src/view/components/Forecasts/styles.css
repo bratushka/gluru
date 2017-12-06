@@ -1,0 +1,55 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .dashboard > div {
+    margin-bottom: 23px; }
+
+.forecast {
+  height: 200px;
+  position: relative;
+  width: 200px; }
+  .forecast > * {
+    position: absolute; }
+  .forecast .image {
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%); }
+  .forecast .city {
+    left: 50%;
+    font-size: 1.3em;
+    font-weight: 300;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .forecast .details {
+    bottom: 10px;
+    line-height: 32px; }
+    .forecast .details > div {
+      position: relative; }
+    .forecast .details .word {
+      font-size: 11px;
+      opacity: .5;
+      padding-left: 10px; }
+    .forecast .details .icon {
+      left: 90px;
+      font-size: 20px;
+      margin-left: 10px;
+      position: absolute;
+      transform: translate(-50%); }
+    .forecast .details .sun {
+      color: #FFC900; }
+    .forecast .details .day {
+      left: 110px;
+      position: absolute; }
+    .forecast .details .droplet {
+      color: #00B9FF; }
+    .forecast .details .night {
+      font-size: 12px;
+      left: 140px;
+      margin-left: 10px;
+      opacity: .5;
+      position: absolute; }
+
+.no-results {
+  line-height: 30px;
+  padding: 20px; }
